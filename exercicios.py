@@ -31,7 +31,7 @@ livro = {
   "Ano" : 1915,
 }
 
-print(livro)
+print(livro["Autor"])
 
 
 # EXERCÍCIO 5 - Soma dos números pares
