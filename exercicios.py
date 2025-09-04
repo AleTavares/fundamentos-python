@@ -36,3 +36,10 @@ def soma_pares(numeros):
         if num % 2 == 0:
             soma += num
     return soma
+lista1 = [1, 2, 3, 4, 5, 6]
+lista2 = [10, 15, 20, 25, 30]
+lista3 = [1, 3, 5, 7]
+
+print(soma_pares(lista1))  # Esperado: 12 (2+4+6)
+print(soma_pares(lista2))  # Esperado: 60 (10+20+30)
+print(soma_pares(lista3))  # Esperado: 0 (nenhum par)
