@@ -24,3 +24,15 @@ livro = {
 }
 
 print("Nome do Autor:", livro["Autor"])
+
+# Exercício 5
+
+def soma_lista(numeros):
+    soma = 0
+    for n in numeros:
+        if n % 2 == 0:
+            soma += n
+    return soma
+
+lista = [1, 2, 3, 4, 5]
+print("Soma dos números pares na lista:" , soma_lista(lista))
