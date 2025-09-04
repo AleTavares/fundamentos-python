@@ -14,3 +14,13 @@ print(f"Olá, {nome}!")
 
 frutas = ["maçã", "banana", "cereja", "laranja", "uva"]
 print(f"3 Primeiras frutas: {frutas[:3]}")
+
+# Exercício 4
+
+livro = {
+    "Título": "1984",
+    "Autor": "George Orwell",
+    "Ano": 1949
+}
+
+print("Nome do Autor:", livro["Autor"])
