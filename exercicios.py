@@ -3,11 +3,8 @@
 def dobrar(numero):
     return numero * 2
 
-print(dobrar(2))     # Deve retornar 4
-print(dobrar(5))     # Deve retornar 10
-print(dobrar(-3))    # Deve retornar -6
-print(dobrar(0))     # Deve retornar 0
-print(dobrar(3.5))   # Deve retornar 7.0
+print(dobrar(2))     
+print(dobrar(5))     
 
 #Exercicio 2 
 nome = input("Qual é o seu nome? ")  
