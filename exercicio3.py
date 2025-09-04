@@ -1,0 +1,1 @@
+print(["Maçã", "Banana", "Laranja", "Uva", "Abacaxi"][:3])
