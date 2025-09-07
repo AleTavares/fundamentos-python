@@ -28,7 +28,7 @@ livro = {
 }
 print(f"Nome do autor: {livro['autor']}")
 
-# Exercício 5: Soma dos números pares
+# Exercício 5: Soma dos números pares 
 
 def soma_pares(lista):
     return sum(num for num in lista if num % 2 == 0)
